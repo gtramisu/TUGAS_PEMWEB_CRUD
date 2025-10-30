@@ -115,29 +115,36 @@ Website ini dikembangkan menggunakan **PHP Native**, **MySQL**, dan **HTML/CSS**
 
 ## 🗂️ Struktur Folder
 
-Robufixy web/
-├── .qodo/ 
-├── config/
-│   ├── database.php
-├── folder/
-│   ├── daftarproduk.php
-│   ├── tambahproduk.php
-│   ├── editproduk.php
-│   └── hapusproduk.php
-├── dashboard.php
-├── index.php
-├── login.php
-├── logout.php
-├── beli1.php
-├── beli2.php
-├── beli3.php
-├── cek-pesanan.php
-├── bantuan.php
-├── sukses.php
-├── style.css
-├── script.js
-├── rocket.png
-└── wow.png
+Robufixy Web/
+├── .qodo/                        
+├── config/                      
+│   └── database.php              
+│
+├── folder/                       
+│   ├── daftarproduk.php          
+│   ├── tambahproduk.php          
+│   ├── editproduk.php            
+│   └── hapusproduk.php           
+│
+├── dashboard.php                 
+├── index.php                     
+├── login.php                     
+├── logout.php                    
+│
+├── beli1.php                     
+├── beli2.php                    
+├── beli3.php                  
+│
+├── cek-pesanan.php              
+├── bantuan.php                 
+├── sukses.php                  
+│
+├── style.css                   
+├── script.js                    
+│
+├── rocket.png                    
+└── wow.png                       
+
 
 ---
 
