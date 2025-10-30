@@ -228,7 +228,7 @@ Robufixy Web/
 ---
 
 ## 👩‍💻 Tentang Developer
---------------------------------------------------------------
+**--------------------------------------------------------------**
 | Nama         | Adis                                        |
 ---------------|----------------------------------------------
 | 🎓 NIM       | 2409106026                                  |
@@ -236,7 +236,7 @@ Robufixy Web/
 | 💻 Jurusan   | Informatika                                 |
 | 📧 Email     | naagadis@gmail.com                          |
 | 🌐 GitHub    | https://github.com/gtramisu                 |
-| 📷 Instagram | @gtramisu                                   |
+| 📷 Instagram | https://www.instagram.com/gtramisu          |
 --------------------------------------------------------------
 
 **Selamat menggunakan web Topup Roblox di Robufixy! Terima kasih :3**
