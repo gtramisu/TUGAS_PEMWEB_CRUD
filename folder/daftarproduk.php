@@ -17,10 +17,7 @@ $result = mysqli_query($conn, "SELECT * FROM produk_robux ORDER BY id DESC");
     <header class="header">
         <h1>Robuxify</h1>
         <nav class="navbar">
-            <a href="../index.php">🏠 Beranda</a>
-            <a href="../beli1.php">🛒 Beli Robux</a>
-            <a href="../cek-pesanan.php">📦 Cek Pesanan</a>
-            <a href="../bantuan.php">❓ Bantuan</a>
+            <a href="../dashboard.php">🏠 Beranda</a>
             <a href="daftarproduk.php" class="active">📊 Kelola Produk</a>
         </nav>
         <button id="theme-toggle" class="btn btn-secondary">☀️ Mode Gelap</button>

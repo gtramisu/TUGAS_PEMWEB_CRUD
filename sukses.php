@@ -1,9 +1,5 @@
 <?php
-session_start();
-if (!isset($_SESSION['username'])) {
-    header("Location: login.php");
-    exit();
-}
+session_start(); 
 ?>
 
 <!DOCTYPE html>
@@ -13,7 +9,7 @@ if (!isset($_SESSION['username'])) {
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Pembayaran Berhasil - Robuxify</title>
 
-    <link rel="icon" type="image/png" href="images/rocket.png">
+    <link rel="icon" type="image/png" href="rocket.png">
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -25,10 +21,10 @@ if (!isset($_SESSION['username'])) {
     <header class="header">
         <h1>Robuxify</h1>
         <nav class="navbar">
-            <a href="index.html">🏠 Beranda</a>
-            <a href="beli1.html">🛒 Beli Robux</a>
-            <a href="cek-pesanan.html">📦 Cek Pesanan</a>
-            <a href="bantuan.html">❓ Bantuan</a>
+            <a href="index.php">🏠 Beranda</a>
+            <a href="beli1.php">🛒 Beli Robux</a>
+            <a href="cek-pesanan.php">📦 Cek Pesanan</a>
+            <a href="bantuan.php">❓ Bantuan</a>
         </nav>
         <button id="theme-toggle" class="btn btn-secondary">☀️ Mode Gelap</button>
     </header>
@@ -39,7 +35,7 @@ if (!isset($_SESSION['username'])) {
             <p>Terima kasih sudah melakukan pembelian di <b>Robuxify</b>.</p>
             <p>Pesananmu sedang diproses ✅</p>
             <p>Robux akan masuk ke akunmu dalam waktu maksimal 24 jam.</p>
-            <a href="index.html" class="btn btn-primary">⬅️ Kembali ke Beranda</a>
+            <a href="index.php" class="btn btn-primary">⬅️ Kembali ke Beranda</a>
         </div>
     </main>
 

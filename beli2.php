@@ -1,9 +1,5 @@
 <?php
-session_start();
-if (!isset($_SESSION['username'])) {
-    header("Location: login.php");
-    exit();
-}
+session_start(); 
 ?>
 
 <!DOCTYPE html>
@@ -13,7 +9,7 @@ if (!isset($_SESSION['username'])) {
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Beli Robux - Detail Pesanan</title>
 
-  <link rel="icon" type="image/png" href="images/rocket.png">
+  <link rel="icon" type="image/png" href="rocket.png">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -71,8 +67,8 @@ if (!isset($_SESSION['username'])) {
     </div>
 
     <div class="button-group mt-2" style="display: flex; justify-content: space-between;">
-      <a href="beli1.html" class="btn btn-secondary">⬅️ Kembali</a>
-      <a href="beli3.html" class="btn btn-primary">Lanjut Pembayaran ➡️</a>
+      <a href="beli1.php" class="btn btn-secondary">⬅️ Kembali</a>
+      <a href="beli3.php" class="btn btn-primary">Lanjut Pembayaran ➡️</a>
     </div>
   </div>
 </main>
