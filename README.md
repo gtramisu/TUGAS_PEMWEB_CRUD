@@ -115,6 +115,7 @@ Website ini dikembangkan menggunakan **PHP Native**, **MySQL**, dan **HTML/CSS**
 ## 🗂️ Struktur Folder
 
 Robufixy Web/
+
 ├── .qodo/                        
 ├── config/                      
 │   └── database.php              
@@ -148,18 +149,19 @@ Robufixy Web/
 ---
 
 ## 🧾 Contoh Environment Config
+```php
   <?php
   $host = "localhost";
   $user = "root";
   $pass = "";
-  $db   = "topup_roblox";
+  $db   = "robufixy_db";
   $conn = mysqli_connect($host, $user, $pass, $db);
   
   if (!$conn) {
       die("Koneksi gagal: " . mysqli_connect_error());
   }
   ?>
-
+```
 ---
 
 ## 🖼️ Screenshot Aplikasi
