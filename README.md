@@ -61,8 +61,7 @@ Website ini dikembangkan menggunakan **PHP Native**, **MySQL**, dan **HTML/CSS**
 
 2. **Setup Database**
   Buat database baru di MySQL dengan nama `robufixy_db`, lalu jalankan perintah berikut:
-  
-  ```sql
+```sql
   CREATE DATABASE robufixy_db;
   USE robufixy_db;
   
@@ -90,6 +89,8 @@ Website ini dikembangkan menggunakan **PHP Native**, **MySQL**, dan **HTML/CSS**
     password VARCHAR(255) NOT NULL,
     role ENUM('admin', 'user') DEFAULT 'user'
   );
+```
+---
 
 3. **Konfigurasi Database**
   Buat file config/database.php dengan isi seperti berikut:
