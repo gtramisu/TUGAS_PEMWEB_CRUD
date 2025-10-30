@@ -90,7 +90,6 @@ Website ini dikembangkan menggunakan **PHP Native**, **MySQL**, dan **HTML/CSS**
     role ENUM('admin', 'user') DEFAULT 'user'
   );
 ```
----
 
 3. **Konfigurasi Database**
   Buat file config/database.php dengan isi seperti berikut:
@@ -116,7 +115,6 @@ Website ini dikembangkan menggunakan **PHP Native**, **MySQL**, dan **HTML/CSS**
 ## 🗂️ Struktur Folder
 
 Robufixy Web/
-
 ├── .qodo/                        
 ├── config/                      
 │   └── database.php              
